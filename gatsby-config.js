@@ -9,5 +9,12 @@ module.exports = {
     options: {
       "trackingId": "G-F4H7J7P435"
     }
-  }, "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", 'gatsby-plugin-postcss', 'gatsby-plugin-typescript']
+  },
+  {
+    resolve: 'gatsby-plugin-manifest',
+    options: {
+      icon: 'src/assets/images/icon.png',
+    },
+  },
+  "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", 'gatsby-plugin-postcss', 'gatsby-plugin-typescript']
 };
