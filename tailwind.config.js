@@ -8,6 +8,10 @@ module.exports = {
        lato: ["Lato", "sans-serif"],
        spaceMono: ["Space Mono", "monospace"],
       },
+      colors: {
+        'black100': '#272727',
+        'black80': '#525252'
+      },
     },
   },
   plugins: [],
