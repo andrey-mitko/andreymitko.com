@@ -1,3 +1,8 @@
+// Copygatsby-config.js: copy code to clipboard
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
       title: `Andrey Mitko's Personal Website`,

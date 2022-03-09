@@ -7,7 +7,7 @@ const IndexPage = () => {
     <div>
       <SEO title="Andrey Mitko" />
       <main>
-        <h1 className="text-red-500 text-3xl font-bold underline">
+        <h1 className="text-red-500 text-3xl underline font-lato font-bold">
           Hello World!
         </h1>
       </main>
