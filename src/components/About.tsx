@@ -3,7 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 
 type Props = {
-  className: string;
+  className?: string;
 };
 
 const About = (props: Props) => {

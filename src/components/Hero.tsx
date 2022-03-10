@@ -1,7 +1,7 @@
 import * as React from "react";
 
 type Props = {
-  className: string;
+  className?: string;
 };
 
 const Hero = (props: Props) => {
