@@ -3,7 +3,22 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+       lato: ["Lato", "sans-serif"],
+       spaceMono: ["Space Mono", "monospace"],
+      },
+      colors: {
+        'black100': '#272727',
+        'black80': '#525252',
+        'black50': '#939393',
+        'borderLines' : '#E8E8E8',
+        'pastelGray':'#F3F5F7',
+        'pastelGray2':'#BBC1C7',
+        'pastelPink':'#E7E3E8',
+        'pastelPurple':'#DEDBE4',
+      },
+    },
   },
   plugins: [],
 }
