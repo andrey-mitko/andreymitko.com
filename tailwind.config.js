@@ -14,6 +14,7 @@ module.exports = {
         'black50': '#939393',
         'borderLines' : '#E8E8E8',
         'pastelGray':'#F3F5F7',
+        'pastelGray2':'#BBC1C7',
         'pastelPink':'#E7E3E8',
         'pastelPurple':'#DEDBE4',
       },

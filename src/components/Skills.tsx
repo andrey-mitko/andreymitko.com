@@ -67,7 +67,7 @@ const Skills = (props: Props) => {
           color="bg-pastelPurple"
         ></SkillsGrid>
 
-        <h4 className="mt-8 font-medium text-lg">
+        <h4 className="mt-8 font-medium text-lg leading-loose">
           Checkout my CV to see relevant work experience &#38; education
         </h4>
         <a

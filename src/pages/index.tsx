@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import SEO from "../components/seo";
 import Skills from "../components/skills";
+import Blog from "../components/Blog";
 
 // markup
 const IndexPage = () => {
@@ -13,6 +14,7 @@ const IndexPage = () => {
         <Hero className="w-full h-screen flex flex-col justify-between" />
         <About />
         <Skills />
+        <Blog />
       </main>
     </div>
   );
