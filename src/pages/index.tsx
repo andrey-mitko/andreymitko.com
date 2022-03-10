@@ -4,6 +4,7 @@ import About from "../components/About";
 import SEO from "../components/seo";
 import Skills from "../components/skills";
 import Blog from "../components/Blog";
+import Contact from "../components/Contact";
 
 // markup
 const IndexPage = () => {
@@ -15,6 +16,7 @@ const IndexPage = () => {
         <About />
         <Skills />
         <Blog />
+        <Contact />
       </main>
     </div>
   );
