@@ -2,24 +2,25 @@
 
 <p align="center">Relevant education & experience, CV, Blog and other information related to Andrey Mitko</p>
 
-## Links
+## 🔗 Links
 
 - [View Live Website](https://andreymitko.com "Live View")
 
-## Built With
+## 🛠 Built With
 
 - TypeScript
 - TailwindCSS
 - Gatsby.js
 - React.js
 
-## Author
+## 🖌 Author
 
 **Andrey Mitko**
 
-- [Profile](https://github.com/andrey-mitko "Andrey Mitko")
+- [GitHub](https://github.com/andrey-mitko "Andrey Mitko")
+- [LinkedIn](https://linkedin.com/in/mitk8 "Andrey Mitko")
+- [Twitter](https://linkedin.com/in/andrey_mitko "Andrey Mitko")
 - [Email](mailto:andrey@mitko.me "Hi!")
-- [Website](https://andreymitko.com "Welcome")
 
 ## 🤝 Support
 
