@@ -19,7 +19,7 @@
 
 - [GitHub](https://github.com/andrey-mitko "Andrey Mitko")
 - [LinkedIn](https://linkedin.com/in/mitk8 "Andrey Mitko")
-- [Twitter](https://linkedin.com/in/andrey_mitko "Andrey Mitko")
+- [Twitter](https://twitter.com/andrey_mitko "Andrey Mitko")
 - [Email](mailto:andrey@mitko.me "Hi!")
 
 ## 🤝 Support
