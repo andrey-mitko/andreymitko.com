@@ -1,10 +1,10 @@
-<h1 align="center"><project-name></h1>
+<h1 align="center">Andrey's Personal Website</h1>
 
-<p align="center"><project-description></p>
+<p align="center">This is my personal website with relevant information about me.</p>
 
 ## Links
 
-- [Live](<Homepage url> "Live View")
+- [View Live Website](<Homepage url> "Live View")
 
 ## Built With
 
