@@ -72,10 +72,11 @@ const Skills = (props: Props) => {
         </h4>
         <a
           className="block select-none mt-4 py-4 bg-black100 w-full text-white rounded-full text-center"
-          href="/cv"
+          href={`/resume.pdf`}
+          rel="noreferrer"
           target="_blank"
         >
-          Open CV
+          Open Resume
         </a>
         <div className="h-0.5 mt-11 w-full bg-borderLines"></div>
       </div>

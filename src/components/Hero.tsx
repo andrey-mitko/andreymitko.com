@@ -8,7 +8,7 @@ const Hero = (props: Props) => {
   return (
     <div id="hero" className={props.className}>
       {/* Bulletpoint */}
-      <span className="pt-5 block text-5xl font-spaceMono font-bold italic w-full text-right">
+      <span className=" select-none pt-5 block text-5xl font-spaceMono font-bold italic w-full text-right">
         *
       </span>
       {/* Bulletpoint End */}
@@ -29,7 +29,7 @@ const Hero = (props: Props) => {
       {/* Title + Subtitle End */}
 
       {/* Scroll Up */}
-      <div className="text-black50 flex flex-col items-center">
+      <div className="text-black50 flex flex-col items-center select-none">
         <div className="flex flex-col items-center elementToFadeInAndOut">
           <i className="ri-arrow-up-line text-2xl"></i>
           <p className="mb-24">Scroll Up</p>
