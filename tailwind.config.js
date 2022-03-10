@@ -10,7 +10,9 @@ module.exports = {
       },
       colors: {
         'black100': '#272727',
-        'black80': '#525252'
+        'black80': '#525252',
+        'black50': '#939393',
+        'borderLines' : '#E8E8E8',
       },
     },
   },

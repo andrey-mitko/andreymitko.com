@@ -9,3 +9,59 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom CSS */
+@keyframes fadeMoveAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-1em);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fadeMoveAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-1em);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeMoveAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-1em);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadeMoveAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-1em);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.elementToFadeInAndOut {
+  -webkit-animation: fadeMoveAnimation 4s infinite;
+  -moz-animation: fadeMoveAnimation 4s infinite;
+  -o-animation: fadeMoveAnimation 4s infinite;
+  animation: fadeMoveAnimation 4s infinite;
+}
