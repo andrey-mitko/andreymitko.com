@@ -4,6 +4,7 @@ require("dotenv").config({
 })
 
 module.exports = {
+  pathPrefix: "/andreymitko.com",
   siteMetadata: {
       title: `Andrey Mitko's Personal Website`,
       description: `Andrey Mitko's Personal Website`,
