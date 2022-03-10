@@ -26,7 +26,7 @@ const IndexPage = () => {
             </h1>
             <div className="text-base text-black80 mt-5 center flex items-center space-x-2">
               <h2>Software Developer </h2>
-              <div className="inline-block w-1 h-1 bg-black80 rounded-full"></div>
+              <div className="inline-block w-1 h-1 bg-black80 mt-0.5 rounded-full"></div>
               <h2>Business Student</h2>
             </div>
           </div>
