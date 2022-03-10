@@ -1,10 +1,10 @@
 <h1 align="center">Andrey's Personal Website</h1>
 
-<p align="center">This is my personal website with relevant information about me.</p>
+<p align="center">Relevant education & experience, CV, Blog and other information related to Andrey Mitko</p>
 
 ## Links
 
-- [View Live Website](<Homepage url> "Live View")
+- [View Live Website](https://andreymitko.com "Live View")
 
 ## Built With
 
