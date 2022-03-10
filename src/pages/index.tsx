@@ -34,6 +34,7 @@ const IndexPage = () => {
 
           {/* Scroll Up */}
           <div className="">
+            <i className="ri-arrow-up-line text-2xl"></i>
             <p>Scroll Up</p>
           </div>
           {/* Scroll Up End */}
