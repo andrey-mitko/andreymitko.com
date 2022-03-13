@@ -54,6 +54,10 @@ const SEO = ({ description, lang, meta, title, defaultImage }: Props) => {
           content: `https://www.andreymitko.com${metaImage}`,
         },
         {
+          name: `image`,
+          content: `https://www.andreymitko.com${metaImage}`,
+        },
+        {
           name: `description`,
           content: metaDescription,
         },
