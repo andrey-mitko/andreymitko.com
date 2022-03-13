@@ -12,7 +12,13 @@ module.exports = {
   plugins: [{
     resolve: 'gatsby-plugin-google-analytics',
     options: {
-      "trackingId": "G-F4H7J7P435"
+      "trackingId": "G-F4H7J7P435",
+      // Defines where to place the tracking script - `true` in the head and `false` in the body
+      head: true,
+      // Delays sending pageview hits on route update (in milliseconds)
+      pageTransitionDelay: 0,
+      // defaults to false
+      enableWebVitalsTracking: true,
     }
   },
   {
