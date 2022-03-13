@@ -27,5 +27,5 @@ module.exports = {
       icon: 'src/assets/images/icon.png',
     },
   },
-  "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", 'gatsby-plugin-postcss', 'gatsby-plugin-typescript']
+  "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", 'gatsby-plugin-postcss', 'gatsby-plugin-typescript', 'gatsby-plugin-cname']
 };
