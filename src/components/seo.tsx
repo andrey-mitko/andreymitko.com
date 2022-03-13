@@ -46,8 +46,12 @@ const SEO = ({ description, lang, meta, title, defaultImage }: Props) => {
       titleTemplate={`%s`}
       meta={[
         {
+          name: "og:type",
+          content: "website",
+        },
+        {
           name: `og:image`,
-          content: metaImage,
+          content: `https://www.andreymitko.com${metaImage}`,
         },
         {
           name: `description`,
