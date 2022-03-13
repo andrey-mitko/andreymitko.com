@@ -11,7 +11,7 @@ import Footer from "../components/Footer";
 const IndexPage = () => {
   return (
     <div className="text-black100 font-lato">
-      <SEO title="Andrey Mitko" />
+      <SEO title="Andrey Mitko" lang="en" />
       <main className="mx-5 md:mx-28 lg:mx-32 xl:mx-60 2xl:max-w-screen-lg 2xl:mx-auto ">
         <Hero className="w-full h-screen flex flex-col justify-between" />
         <About />

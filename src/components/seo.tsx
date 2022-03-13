@@ -8,15 +8,18 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
+// @ts-expect-error
+import socialBanner from "../../static/og_image.png";
 
 interface Props {
   description?: string;
   lang?: string;
   meta?: [];
   title: string;
+  defaultImage?: string;
 }
 
-const SEO = ({ description, lang, meta, title }: Props) => {
+const SEO = ({ description, lang, meta, title, defaultImage }: Props) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -31,6 +34,7 @@ const SEO = ({ description, lang, meta, title }: Props) => {
   );
 
   const metaDescription = description || site.siteMetadata.description;
+  const metaImage = defaultImage || socialBanner;
 
   return (
     <Helmet
@@ -41,6 +45,10 @@ const SEO = ({ description, lang, meta, title }: Props) => {
       // Previous  titleTemplate={`%s | ${site.siteMetadata.title}`}
       titleTemplate={`%s`}
       meta={[
+        {
+          name: `og:image`,
+          content: metaImage,
+        },
         {
           name: `description`,
           content: metaDescription,
