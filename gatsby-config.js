@@ -7,7 +7,7 @@ module.exports = {
   pathPrefix: "/", ///andreymitko.com
   siteMetadata: {
       title: `Andrey Mitko's Personal Website`,
-      description: `Andrey Mitko's Personal Website`,
+      description: `Relevant education & experience, CV, Blog and other information related to Andrey Mitko`,
     siteUrl: `https://www.andreymitko.com`
   },
   plugins: [{
