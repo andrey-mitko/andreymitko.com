@@ -4,8 +4,8 @@
 
 ## 🔗 Links
 
-- [View Live Website](https://andreymitko.com "Live View")
-
+- [View Old Website](https://andrey-mitko.github.io/andreymitko.com/ "Live View")
+- [View New Website](https://andreymitko.com/ "Live View")
 ## 🛠 Built With
 
 - TypeScript
